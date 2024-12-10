@@ -13,7 +13,7 @@ app.get("/products", (req, res) => {
       name: "Dosa",
       img: "https://pipingpotcurry.com/wp-content/uploads/2020/11/Dosa-recipe-plain-sada-dosa-Piping-Pot-Curry.jpg",
       category: "food",
-      price: 270,
+      price: 170,
       quantity: 0,
     },
     {
@@ -21,7 +21,7 @@ app.get("/products", (req, res) => {
       name: "Idli/Sambhar",
       img: "https://vaya.in/recipes/wp-content/uploads/2018/02/Idli-and-Sambar-1.jpg",
       category: "food",
-      price: 180,
+      price: 80,
       quantity: 0,
     },
     {
@@ -29,7 +29,7 @@ app.get("/products", (req, res) => {
       name: "Dal Makhni",
       img: "https://recipes.timesofindia.com/thumb/53097626.cms?width=1200&height=900",
       category: "food",
-      price: 180,
+      price: 70,
       quantity: 0,
     },
 
