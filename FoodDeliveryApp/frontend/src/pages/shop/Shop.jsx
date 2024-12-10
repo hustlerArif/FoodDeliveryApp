@@ -15,7 +15,7 @@ const Shop = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get(`http://localhost:4001/products`);
+        const response = await axios.get(`https://fooddeliveryapp-backend-ng6b.onrender.com/products`);
         console.log(response.data);
         setProduct(response.data);
         setFoodOnly(response.data.filter((item) => item.category === "food"));
